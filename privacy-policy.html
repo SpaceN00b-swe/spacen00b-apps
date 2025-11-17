@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekretesspolicy - Direktplanering</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sekretesspolicy</h1>
+            <p class="subtitle">Direktplanering - Trafikverkets mobilapp</p>
+        </div>
+    </header>
+
+    <main class="container policy-content">
+        <p><strong>Senast uppdaterad:</strong> 17 november 2025</p>
+
+        <section>
+            <h2>1. Introduktion</h2>
+            <p>
+                Direktplanering ("appen", "vi", "vår") är en mobilapplikation utvecklad för Trafikverkets personal.
+                Denna sekretesspolicy beskriver hur vi samlar in, använder, lagrar och skyddar dina personuppgifter
+                när du använder vår mobilapplikation.
+            </p>
+            <p>
+                Genom att använda appen godkänner du de metoder för insamling och användning av information som
+                beskrivs i denna policy.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Personuppgiftsansvarig</h2>
+            <p>
+                Personuppgiftsansvarig för behandlingen av personuppgifter i Direktplanering är Trafikverket.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Vilka uppgifter samlar vi in?</h2>
+
+            <h3>3.1 Kontoinformation</h3>
+            <p>När du registrerar dig och använder appen samlar vi in:</p>
+            <ul>
+                <li>E-postadress</li>
+                <li>Lösenord (krypterat)</li>
+                <li>Användarnamn</li>
+            </ul>
+
+            <h3>3.2 Platsdata</h3>
+            <p>
+                Appen använder din enhets GPS-position för att:
+            </p>
+            <ul>
+                <li>Visa järnvägsdata på interaktiva kartor</li>
+                <li>Visa din position i relation till järnvägssträckor</li>
+                <li>Underlätta registrering av platsinformation i dokument</li>
+            </ul>
+            <p>
+                <strong>Viktigt:</strong> Platsinformation samlas endast in när du aktivt använder kartfunktionen
+                och appen är öppen. Vi spårar inte din position i bakgrunden.
+            </p>
+
+            <h3>3.3 Arbetsdokument och data</h3>
+            <p>All data du skapar i appen lagras, inklusive:</p>
+            <ul>
+                <li>SOS-planeringar (TMALL 0482)</li>
+                <li>Riskbedömningar (Risk-U)</li>
+                <li>Arbetsplaner (Blankett 30)</li>
+                <li>Sökinformation i BanInfo</li>
+                <li>Användarinställningar och preferenser</li>
+            </ul>
+
+            <h3>3.4 Kamera och fotoarkiv</h3>
+            <p>
+                Appen kan begära tillgång till din kamera och fotoarkiv för att:
+            </p>
+            <ul>
+                <li>Ta bilder för arbetsdokumentation</li>
+                <li>Bifoga bilder till riskbedömningar och arbetsplaner</li>
+            </ul>
+            <p>
+                Bilder samlas endast in när du aktivt väljer att ta eller bifoga dem.
+            </p>
+
+            <h3>3.5 Teknisk information och felrapporter</h3>
+            <p>
+                För att förbättra appens prestanda och stabilitet samlar vi in:
+            </p>
+            <ul>
+                <li>Enhetstyp och operativsystem</li>
+                <li>Appversion</li>
+                <li>Kraschrapporter och felloggar (via Sentry)</li>
+                <li>Användningsstatistik</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Hur använder vi dina uppgifter?</h2>
+            <p>Vi använder insamlade uppgifter för följande ändamål:</p>
+            <ul>
+                <li><strong>Tillhandahålla tjänsten:</strong> För att du ska kunna använda appens funktioner</li>
+                <li><strong>Autentisering:</strong> För att säkerställa att endast behöriga användare får tillgång</li>
+                <li><strong>Dokumentation:</strong> För att skapa, lagra och dela arbetsdokument</li>
+                <li><strong>Kartfunktioner:</strong> För att visa relevant järnvägsinformation baserat på position</li>
+                <li><strong>Förbättring:</strong> För att analysera användning och förbättra appens funktionalitet</li>
+                <li><strong>Felsökning:</strong> För att identifiera och åtgärda tekniska problem</li>
+                <li><strong>Säkerhet:</strong> För att skydda mot missbruk och säkerhetshot</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Hur lagras dina uppgifter?</h2>
+
+            <h3>5.1 Lokal lagring på enhet</h3>
+            <p>
+                Viss data lagras lokalt på din enhet via AsyncStorage:
+            </p>
+            <ul>
+                <li>Inloggningstoken (för automatisk inloggning)</li>
+                <li>Användarinställningar</li>
+                <li>Utkast av dokument</li>
+            </ul>
+
+            <h3>5.2 Server-baserad lagring</h3>
+            <p>
+                Följande data lagras på säkra servrar:
+            </p>
+            <ul>
+                <li>Kontoinformation</li>
+                <li>Alla skapade dokument (SOS-planer, riskbedömningar, arbetsplaner)</li>
+                <li>Användarprofiler</li>
+            </ul>
+            <p>
+                All data överförs krypterat via HTTPS och lagras på servrar inom EU.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Delning med tredje part</h2>
+            <p>Vi delar dina uppgifter med följande tredje parter:</p>
+
+            <h3>6.1 Google Maps</h3>
+            <p>
+                För kartfunktionalitet använder vi Google Maps API. Din platsdata delas med Google för att
+                rendera kartor och visa järnvägsinformation. Googles hantering av data regleras av
+                <a href="https://policies.google.com/privacy" target="_blank">Googles sekretesspolicy</a>.
+            </p>
+
+            <h3>6.2 Sentry</h3>
+            <p>
+                Vi använder Sentry för felspårning och prestandaövervakning. Teknisk information och felrapporter
+                delas med Sentry. Läs mer i
+                <a href="https://sentry.io/privacy/" target="_blank">Sentrys sekretesspolicy</a>.
+            </p>
+
+            <h3>6.3 Expo</h3>
+            <p>
+                Appen är byggd med Expo-ramverket. Viss teknisk data kan delas med Expo för applikationshantering.
+                Läs mer i <a href="https://expo.dev/privacy" target="_blank">Expos sekretesspolicy</a>.
+            </p>
+
+            <p>
+                <strong>Vi säljer aldrig dina personuppgifter till tredje part.</strong>
+            </p>
+        </section>
+
+        <section>
+            <h2>7. Dataskydd och säkerhet</h2>
+            <p>Vi vidtar följande säkerhetsåtgärder för att skydda dina uppgifter:</p>
+            <ul>
+                <li>Krypterad dataöverföring (HTTPS/TLS)</li>
+                <li>Säker autentisering med JWT-tokens</li>
+                <li>Krypterade lösenord (bcrypt eller liknande)</li>
+                <li>Regelbundna säkerhetsuppdateringar</li>
+                <li>Åtkomstkontroll och behörighetssystem</li>
+            </ul>
+            <p>
+                Trots dessa åtgärder kan ingen metod för dataöverföring eller elektronisk lagring vara 100% säker.
+                Vi kan därför inte garantera absolut säkerhet.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Dina rättigheter (GDPR)</h2>
+            <p>Enligt GDPR har du följande rättigheter:</p>
+            <ul>
+                <li><strong>Rätt till tillgång:</strong> Du kan begära en kopia av dina personuppgifter</li>
+                <li><strong>Rätt till rättelse:</strong> Du kan uppdatera felaktig eller ofullständig information</li>
+                <li><strong>Rätt till radering:</strong> Du kan begära att vi raderar dina personuppgifter</li>
+                <li><strong>Rätt till begränsning:</strong> Du kan begära att vi begränsar behandlingen</li>
+                <li><strong>Rätt till dataportabilitet:</strong> Du kan få dina data i ett maskinläsbart format</li>
+                <li><strong>Rätt att göra invändningar:</strong> Du kan invända mot vår behandling av dina uppgifter</li>
+            </ul>
+            <p>
+                För att utöva dina rättigheter, kontakta oss på den e-postadress som anges i kontaktinformation nedan.
+            </p>
+        </section>
+
+        <section>
+            <h2>9. Barn och personuppgifter</h2>
+            <p>
+                Direktplanering är avsedd för professionellt bruk av Trafikverkets personal och är inte riktad
+                till personer under 18 år. Vi samlar inte medvetet in personuppgifter från barn.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Cookies och spårning</h2>
+            <p>
+                Appen använder inte cookies i traditionell bemärkelse. Dock lagras autentiseringstoken och
+                användarinställningar lokalt på din enhet för att förbättra användarupplevelsen.
+            </p>
+        </section>
+
+        <section>
+            <h2>11. Datalagring och radering</h2>
+            <p>
+                Vi lagrar dina personuppgifter så länge du har ett aktivt konto. Om du begär radering av ditt konto
+                kommer dina personuppgifter att raderas inom 30 dagar.
+            </p>
+            <p>
+                Vissa uppgifter kan behöva behållas längre för att uppfylla juridiska krav, till exempel
+                arbetsdokumentation som kan omfattas av arkiveringskrav.
+            </p>
+        </section>
+
+        <section>
+            <h2>12. Ändringar i sekretesspolicyn</h2>
+            <p>
+                Vi kan uppdatera denna sekretesspolicy från tid till annan. Vi kommer att meddela dig om
+                väsentliga ändringar genom ett meddelande i appen eller via e-post.
+            </p>
+            <p>
+                Vi rekommenderar att du regelbundet granskar denna policy för att hålla dig informerad om hur
+                vi skyddar dina uppgifter.
+            </p>
+        </section>
+
+        <section>
+            <h2>13. Kontaktinformation</h2>
+            <p>
+                Om du har frågor om denna sekretesspolicy eller vill utöva dina rättigheter, kontakta oss:
+            </p>
+            <p>
+                <strong>Trafikverket</strong><br>
+                Organisationsnummer: 202100-6297<br>
+                Adress: Solna strandväg 98, 172 90 Sundbyberg<br>
+                E-post: trafikverket@trafikverket.se<br>
+                Telefon: 0771-921 921
+            </p>
+        </section>
+
+        <section>
+            <h2>14. Klagomål till tillsynsmyndighet</h2>
+            <p>
+                Du har rätt att lämna in ett klagomål till Integritetsskyddsmyndigheten (IMY) om du anser att
+                behandlingen av dina personuppgifter strider mot dataskyddsförordningen (GDPR).
+            </p>
+            <p>
+                <strong>Integritetsskyddsmyndigheten (IMY)</strong><br>
+                Box 8114<br>
+                104 20 Stockholm<br>
+                E-post: imy@imy.se<br>
+                Telefon: 08-657 61 00<br>
+                Webb: <a href="https://www.imy.se" target="_blank">www.imy.se</a>
+            </p>
+        </section>
+
+        <div class="back-link">
+            <a href="index.html">&larr; Tillbaka till startsidan</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Direktplanering. Alla rättigheter förbehållna.</p>
+        </div>
+    </footer>
+</body>
+</html>

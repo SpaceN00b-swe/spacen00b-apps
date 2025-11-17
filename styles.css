@@ -129,6 +129,54 @@ a:hover {
     color: #003366;
 }
 
+/* Apps section */
+.apps {
+    margin-bottom: 40px;
+}
+
+.app-card {
+    background: #f9f9f9;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-card:hover {
+    border-color: #0055aa;
+    box-shadow: 0 4px 15px rgba(0,85,170,0.1);
+}
+
+.app-card h3 {
+    color: #003366;
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.app-card p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.app-card ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.app-card li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.app-status {
+    font-style: italic;
+    color: #0055aa;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
 /* Download section */
 .download {
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f2ff 100%);
